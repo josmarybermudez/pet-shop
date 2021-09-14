@@ -1,0 +1,15 @@
+#search-bar {
+    width: 400px;
+}
+#categories {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    li {
+        border: blue 1px solid;
+        margin: 0 15px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+}

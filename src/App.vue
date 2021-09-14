@@ -1,15 +1,22 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+	<v-app>
+		<topbar></topbar>
+	</v-app>
 </template>
 
-<style lang="scss">
-h1 {
-  color: green;
-}
-</style>
+<script>
+import "./styles/main.scss";
+import topbar from "./components/topbar";
+
+export default {
+  name: "App",
+
+  data: () => ({
+    //
+  }),
+  components: {
+    topbar,
+  },
+};
+
+</script>

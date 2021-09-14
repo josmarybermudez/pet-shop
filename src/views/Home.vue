@@ -1,24 +1,15 @@
 <template>
-  <div class="home">
-    <h1> {{ title }} </h1>
-    <p> {{ greeting() }} </p>
-  </div>
+  <hello-world />
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from "@/components/HelloWorld.vue";
+import HelloWorld from "../components/HelloWorld";
 
 export default {
-  data() {
-    return {
-      title: 'Holis Jos'
-    }
+  name: "Home",
+
+  components: {
+    HelloWorld,
   },
-  methods: {
-    greeting: function(){
-      return 'heyyy, i didnt broke';
-    }
-  }
-}
+};
 </script>

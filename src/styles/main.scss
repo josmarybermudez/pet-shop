@@ -1,0 +1,7 @@
+$color-pack: false;
+@import '~vuetify/src/styles/main.sass';
+@import './topbar.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
